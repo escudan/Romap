@@ -1,0 +1,14 @@
+svg text::selection{background:none;}
+#description{position:relative;margin:2% auto 2% auto;width:40%;-webkit-border-radius:4px;border-radius:4px;color:#fff;background:rgba(12,123,12,.5);padding:5px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+#container{-webkit-transform-origin:left top;-moz-transform-origin:left top;-ms-transform-origin:left top;-o-transform-origin:left top;transform-origin:left top;margin:0 auto;position:relative;}
+body,
+html{width:100%;height:100%;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif;-ms-overflow-x:hidden;overflow-x:hidden;-ms-overflow-y:hidden;overflow-y:hidden;}
+#map,
+#map-info{width:100%;position:absolute;display:none;}
+#map{top:0;height:50%;}
+#map-info{height:50%;bottom:0;background:rgba(12,121,5,.7);color:#fff;overflow:scroll;-ms-overflow-x:hidden;overflow-x:hidden;}
+#map-contents{width:75%;height:100%;margin:0 auto;position:relative;}
+#map-contents p{padding:5px;background:rgba(12,12,12,.5);-webkit-border-radius:4px;border-radius:4px;display:inline-block;}
+#close-button{position:absolute;top:0;right:0;margin-right:5px;margin-top:5px;width:35px;height:35px;background:url('../assets/close-button.png');-webkit-background-size:35px 35px;-o-background-size:35px 35px;background-size:35px 35px;cursor:pointer;z-index:60;}
+polygon,
+text{cursor:pointer;font-size:40px;}
