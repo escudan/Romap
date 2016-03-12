@@ -1,6 +1,6 @@
 ;
 (function() {
-	// INITIALIAZE MAP COORDINATES
+	// INITIALIZE MAP COORDINATES
 	$data = {
 		lat: 44.42677,
 		long: 26.10254
